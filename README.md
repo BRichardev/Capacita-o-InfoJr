@@ -8,8 +8,8 @@
 ## 💻 Sobre o projeto <a name = "-sobre"></a>
 
 O projeto com base nos vídeos de capacitação da InfoJr<br />
-Link para o instagram da InfoJr <a src="https://www.instagram.com/infojrufba/?hl=pt-br">InfoJr-Instagram</a>💚<br />
-Link geral para outros domínios da InfoJr: <a src="https://linktr.ee/infojrufba">InfoJr-Geral</a>💚
+Link para o instagram da InfoJr: [InfoJr-Instagram](https://www.instagram.com/infojrufba/?hl=pt-br)💚<br />
+Link geral para outros domínios da InfoJr: [InfoJr-Geral](https://linktr.ee/infojrufba)💚
 
 <p align="center">
   <img src="img/infojr_cap_pic.png" width="1430" title="Picture da tela da InfoJr">

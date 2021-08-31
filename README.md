@@ -12,6 +12,6 @@ Link para o instagram da InfoJr: [InfoJr-Instagram](https://www.instagram.com/in
 Link geral para outros domínios da InfoJr: [InfoJr-Geral](https://linktr.ee/infojrufba)💚
 
 <p align="center">
-    <h2 align="center">Estado atual do site com base nos vídeos da capacitação</h2>
+    <h2 align="center">Estado atual do site com base nos vídeos de capacitação</h2>
   <img src="img/infojr_cap_pic.png" width="1430" title="Picture da tela da InfoJr">
 </p>

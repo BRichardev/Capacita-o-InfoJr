@@ -13,5 +13,5 @@ Link geral para outros domínios da InfoJr: [InfoJr-Geral](https://linktr.ee/inf
 
 <p align="center">
     <h2 align="center">Estado atual do site com base nos vídeos de capacitação</h2>
-  <img src="img/infojr_cap_pic.png" width="1430" title="Picture da tela da InfoJr">
+  <img src="img/tela_atual02.png" width="1430" title="Picture da tela da InfoJr">
 </p>

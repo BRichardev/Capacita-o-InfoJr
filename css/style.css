@@ -1,3 +1,10 @@
+:root {
+    --bg-header-color: #1A1C17;
+    --text-color: #ffffff;
+    --bg-main-color: #252822;
+    --bg-aside-color: #7CB124;
+    --text-color-card-desc: #A0A4A8;
+}
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /*! Font Regular 400 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); /*! Font Bold 700 */
 
@@ -5,26 +12,72 @@
     margin: 0;
     padding: 0;
     border: 0;
+    text-decoration: none;
 }
 
 body {
-    background-color: #1A1C17;
-    color: #ffffff;
+    background-color: var(--bg-header-color);
+    color: var(--text-color);
     font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 64vw;
+    background-color: rgba(0, 0, 0, 0.384);
 }
 
 header {
     height: 80px;
-    background-color: #252822;
+    background-color: var(--bg-main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: var(--bg-aside-color);
+    font-weight: 700;
+    font-size: 14px;
 }
 
 main {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container {
+    display: flex;
+    gap: 80px;
 }
 
 aside {
     width: 315px;
-    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+aside  span {
+    color: var(--bg-aside-color);
+}
+
+aside > p {
+    text-align: center;
+}
+
+aside > #aside_details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /*aside > * {
@@ -32,15 +85,72 @@ aside {
 }*/
 
 aside #aside-button {
-    background-color: #7CB124;
-    color:#FFFFFF;
+    background-color: var(--bg-aside-color);
+    color: var(--text-color);
     font-weight: 700;
     padding: 11px;
     border-radius: 30px;
     width: 100%;
 }
 
+article {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.788);
+    border-radius: 10px;
+    padding: 30px 25px;
+    gap: 30px;
+}
+.card-title {
+    font-weight: 700;
+}
+
+.card-category {
+    color: var(--text-color-card-desc);;
+}
+
+.card-description {
+    color: var(--text-color);
+    margin: 10px 0;
+}
+
+.card-link {
+    color: var(--bg-aside-color);
+    font-weight: 700;
+}
+
+.card-image {
+    width: 80px;
+    height: 80px;
+}
+
 footer {
-    background-color: #252822;
+    background-color: var(--bg-main-color);
     height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+footer div.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    height: 90px;
+}
+.pos-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 35px 0px;
+    text-align: center;
 }

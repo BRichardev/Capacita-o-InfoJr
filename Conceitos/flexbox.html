@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Conceitos</title>
+
+    <style>
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: coral;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+
+    #cabecalho {
+        background-color: aquamarine;
+        height: 200px;
+        display: flex; /* Permiti utilizar as propriedades flex assim como determinar o tipo de caixa 
+        para quem estiver dentro desse elementos pai */
+        
+        justify-content: center; /* Centraliza os elementos na direção X */
+        /*align-items: center; Usado para alinhar os itens bem no meio/centro nesse caso muda a altura  */
+    }
+
+    #cabecalho .container {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    main {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .container { /* Elemento/Filho dentro de cabecalho que irá se posicionar conforme o elemento pai mandar */
+
+        width: 50%; /* Limitamos a 50% de tamanho esse elemento filho/.container para que possamos deixa-lo
+        no centro e desconsiderar os cantos tendo um layout igual do InfoJr */
+        background: rgba(0, 0, 0, 0.493);
+    }
+    </style>
+</head>
+<body>
+    <div id="cabecalho" >
+        <div class="container">
+            <img src="img/img1.png" alt="">
+            <p>Texto02</p>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <p>Paragrafo</p>
+        </div>
+    </main>
+</body>
+</html>
